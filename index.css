@@ -126,14 +126,19 @@ h6 {
   /* translate: 0px 75px; */
 }
 
-.viewBtn {
+/* .viewBtn {
   background: var(--maincolor) !important;
   color: #fff !important;
-}
+} */
 .viewBtn:hover {
-  background: #fff !important;
+  /* background: #fff !important; */
   color: var(--maincolor) !important;
   border: 2px solid var(--maincolor) !important;
+}
+
+.previewCard:hover {
+  transform: scale(1.1);
+  transition: all 0.45s ease-in-out;
 }
 @media screen and (max-width: 786px) {
   .heroBox {
@@ -156,6 +161,9 @@ h6 {
   .viewBtn:hover {
     background: #fff !important;
     color: var(--maincolor) !important;
+  }
+  .previewCard:hover {
+    transform: scale(1.05);
   }
 }
 
