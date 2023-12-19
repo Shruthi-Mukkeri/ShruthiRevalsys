@@ -26,7 +26,7 @@ body {
 /*
     5. Improve media defaults
   */
-img,
+
 picture,
 video,
 canvas,
@@ -126,13 +126,13 @@ h6 {
   /* translate: 0px 75px; */
 }
 
-/* .viewBtn {
+.viewBtn {
   background: var(--maincolor) !important;
   color: #fff !important;
-} */
+}
 .viewBtn:hover {
   /* background: #fff !important; */
-  color: var(--maincolor) !important;
+  color: #fff !important;
   border: 2px solid var(--maincolor) !important;
 }
 
@@ -150,6 +150,28 @@ h6 {
 }
 .storyScroll::-webkit-scrollbar {
   display: none;
+}
+.focus {
+  background: linear-gradient(to right, var(--maincolor), #2d3e82);
+}
+.focusContent {
+  width: 80%;
+}
+
+.focusImage {
+  height: 286px;
+  width: 286px;
+}
+.title {
+  letter-spacing: 1.2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bottomTitle {
+  bottom: 20px;
+}
+.topTitle {
+  top: 20px;
 }
 
 @media screen and (max-width: 786px) {
@@ -179,6 +201,10 @@ h6 {
   }
   .stories {
     margin-top: 0px;
+    max-width: 100%;
+  }
+  .focusContent {
+    width: 100%;
   }
 }
 
