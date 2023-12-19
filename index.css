@@ -210,8 +210,15 @@ h6 {
   .focusContent {
     width: 100%;
   }
+  .navFont {
+    font-size: 14px !important;
+  }
 }
 
 .cardColor {
   background: #f3f3f3 !important;
+}
+
+.navFont {
+  font-size: 18px;
 }
