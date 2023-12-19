@@ -69,10 +69,64 @@ h6 {
   --maincolor: #243167;
 }
 
-.navHeader {
+.mainBackgroundColor {
   background: var(--maincolor);
 }
 
 .mainFontColor {
   color: var(--maincolor);
+}
+
+/* hero Content  */
+
+.carouselImage {
+  height: 462px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 5rem !important;
+  height: 4rem !important;
+}
+
+.heroBox {
+  width: 312px;
+  right: 18%;
+}
+
+.decorLines {
+  height: 160px;
+}
+
+.brandIcon {
+  height: 112px;
+}
+
+.brandLines {
+  border: 1px solid var(--maincolor);
+  max-width: 212px;
+}
+.decorLine-2 {
+  top: 35%;
+}
+.handShake {
+  font-size: 85px;
+}
+
+@media screen and (max-width: 786px) {
+  .heroBox {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .decorLine-2 {
+    top: 70%;
+  }
+  .decorLines {
+    height: 150px;
+  }
 }
