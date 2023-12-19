@@ -140,6 +140,18 @@ h6 {
   transform: scale(1.1);
   transition: all 0.45s ease-in-out;
 }
+.storyCard {
+  width: 215px !important;
+}
+
+.stories {
+  margin-top: 125px;
+  max-width: 90%;
+}
+.storyScroll::-webkit-scrollbar {
+  display: none;
+}
+
 @media screen and (max-width: 786px) {
   .heroBox {
     left: 50%;
@@ -164,6 +176,9 @@ h6 {
   }
   .previewCard:hover {
     transform: scale(1.05);
+  }
+  .stories {
+    margin-top: 0px;
   }
 }
 
