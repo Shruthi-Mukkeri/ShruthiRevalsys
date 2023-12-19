@@ -118,6 +118,23 @@ h6 {
   font-size: 85px;
 }
 
+.productView {
+  height: 270px;
+}
+.productViewContent {
+  max-width: 85%;
+  /* translate: 0px 75px; */
+}
+
+.viewBtn {
+  background: var(--maincolor) !important;
+  color: #fff !important;
+}
+.viewBtn:hover {
+  background: #fff !important;
+  color: var(--maincolor) !important;
+  border: 2px solid var(--maincolor) !important;
+}
 @media screen and (max-width: 786px) {
   .heroBox {
     left: 50%;
@@ -129,4 +146,19 @@ h6 {
   .decorLines {
     height: 150px;
   }
+  .productView {
+    height: auto;
+  }
+  .productViewContent {
+    max-width: 100%;
+    translate: 0;
+  }
+  .viewBtn:hover {
+    background: #fff !important;
+    color: var(--maincolor) !important;
+  }
+}
+
+.cardColor {
+  background: #f3f3f3 !important;
 }
