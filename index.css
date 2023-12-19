@@ -64,3 +64,15 @@ h6 {
 }
 
 /* Custom CSS */
+
+:root {
+  --maincolor: #243167;
+}
+
+.navHeader {
+  background: var(--maincolor);
+}
+
+.mainFontColor {
+  color: var(--maincolor);
+}
